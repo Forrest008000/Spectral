@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A86A9E5D1F12F22500F29CDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86A9E5C1F12F22500F29CDC /* AppDelegate.swift */; };
+		A86A9E5F1F12F22500F29CDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86A9E5E1F12F22500F29CDC /* ViewController.swift */; };
+		A86A9E621F12F22500F29CDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A86A9E601F12F22500F29CDC /* Main.storyboard */; };
+		A86A9E641F12F22500F29CDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A86A9E631F12F22500F29CDC /* Assets.xcassets */; };
+		A86A9E671F12F22500F29CDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A86A9E651F12F22500F29CDC /* LaunchScreen.storyboard */; };
+		A86A9E721F12F22500F29CDC /* SpectralTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86A9E711F12F22500F29CDC /* SpectralTests.swift */; };
+		A86A9E7D1F12F22500F29CDC /* SpectralUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86A9E7C1F12F22500F29CDC /* SpectralUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A86A9E6E1F12F22500F29CDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A86A9E511F12F22500F29CDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A86A9E581F12F22500F29CDC;
+			remoteInfo = Spectral;
+		};
+		A86A9E791F12F22500F29CDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A86A9E511F12F22500F29CDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A86A9E581F12F22500F29CDC;
+			remoteInfo = Spectral;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A86A9E591F12F22500F29CDC /* Spectral.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spectral.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A86A9E5C1F12F22500F29CDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A86A9E5E1F12F22500F29CDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A86A9E611F12F22500F29CDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A86A9E631F12F22500F29CDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A86A9E661F12F22500F29CDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A86A9E681F12F22500F29CDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A86A9E6D1F12F22500F29CDC /* SpectralTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpectralTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A86A9E711F12F22500F29CDC /* SpectralTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpectralTests.swift; sourceTree = "<group>"; };
+		A86A9E731F12F22500F29CDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A86A9E781F12F22500F29CDC /* SpectralUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpectralUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A86A9E7C1F12F22500F29CDC /* SpectralUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpectralUITests.swift; sourceTree = "<group>"; };
+		A86A9E7E1F12F22500F29CDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A86A9E561F12F22500F29CDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A86A9E6A1F12F22500F29CDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A86A9E751F12F22500F29CDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A86A9E501F12F22500F29CDC = {
+			isa = PBXGroup;
+			children = (
+				A86A9E5B1F12F22500F29CDC /* Spectral */,
+				A86A9E701F12F22500F29CDC /* SpectralTests */,
+				A86A9E7B1F12F22500F29CDC /* SpectralUITests */,
+				A86A9E5A1F12F22500F29CDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A86A9E5A1F12F22500F29CDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A86A9E591F12F22500F29CDC /* Spectral.app */,
+				A86A9E6D1F12F22500F29CDC /* SpectralTests.xctest */,
+				A86A9E781F12F22500F29CDC /* SpectralUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A86A9E5B1F12F22500F29CDC /* Spectral */ = {
+			isa = PBXGroup;
+			children = (
+				A86A9E5C1F12F22500F29CDC /* AppDelegate.swift */,
+				A86A9E5E1F12F22500F29CDC /* ViewController.swift */,
+				A86A9E601F12F22500F29CDC /* Main.storyboard */,
+				A86A9E631F12F22500F29CDC /* Assets.xcassets */,
+				A86A9E651F12F22500F29CDC /* LaunchScreen.storyboard */,
+				A86A9E681F12F22500F29CDC /* Info.plist */,
+			);
+			path = Spectral;
+			sourceTree = "<group>";
+		};
+		A86A9E701F12F22500F29CDC /* SpectralTests */ = {
+			isa = PBXGroup;
+			children = (
+				A86A9E711F12F22500F29CDC /* SpectralTests.swift */,
+				A86A9E731F12F22500F29CDC /* Info.plist */,
+			);
+			path = SpectralTests;
+			sourceTree = "<group>";
+		};
+		A86A9E7B1F12F22500F29CDC /* SpectralUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A86A9E7C1F12F22500F29CDC /* SpectralUITests.swift */,
+				A86A9E7E1F12F22500F29CDC /* Info.plist */,
+			);
+			path = SpectralUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A86A9E581F12F22500F29CDC /* Spectral */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A86A9E811F12F22500F29CDC /* Build configuration list for PBXNativeTarget "Spectral" */;
+			buildPhases = (
+				A86A9E551F12F22500F29CDC /* Sources */,
+				A86A9E561F12F22500F29CDC /* Frameworks */,
+				A86A9E571F12F22500F29CDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spectral;
+			productName = Spectral;
+			productReference = A86A9E591F12F22500F29CDC /* Spectral.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A86A9E6C1F12F22500F29CDC /* SpectralTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A86A9E841F12F22500F29CDC /* Build configuration list for PBXNativeTarget "SpectralTests" */;
+			buildPhases = (
+				A86A9E691F12F22500F29CDC /* Sources */,
+				A86A9E6A1F12F22500F29CDC /* Frameworks */,
+				A86A9E6B1F12F22500F29CDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A86A9E6F1F12F22500F29CDC /* PBXTargetDependency */,
+			);
+			name = SpectralTests;
+			productName = SpectralTests;
+			productReference = A86A9E6D1F12F22500F29CDC /* SpectralTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A86A9E771F12F22500F29CDC /* SpectralUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A86A9E871F12F22500F29CDC /* Build configuration list for PBXNativeTarget "SpectralUITests" */;
+			buildPhases = (
+				A86A9E741F12F22500F29CDC /* Sources */,
+				A86A9E751F12F22500F29CDC /* Frameworks */,
+				A86A9E761F12F22500F29CDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A86A9E7A1F12F22500F29CDC /* PBXTargetDependency */,
+			);
+			name = SpectralUITests;
+			productName = SpectralUITests;
+			productReference = A86A9E781F12F22500F29CDC /* SpectralUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A86A9E511F12F22500F29CDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Forrest;
+				TargetAttributes = {
+					A86A9E581F12F22500F29CDC = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					A86A9E6C1F12F22500F29CDC = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = A86A9E581F12F22500F29CDC;
+					};
+					A86A9E771F12F22500F29CDC = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = A86A9E581F12F22500F29CDC;
+					};
+				};
+			};
+			buildConfigurationList = A86A9E541F12F22500F29CDC /* Build configuration list for PBXProject "Spectral" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A86A9E501F12F22500F29CDC;
+			productRefGroup = A86A9E5A1F12F22500F29CDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A86A9E581F12F22500F29CDC /* Spectral */,
+				A86A9E6C1F12F22500F29CDC /* SpectralTests */,
+				A86A9E771F12F22500F29CDC /* SpectralUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A86A9E571F12F22500F29CDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A86A9E671F12F22500F29CDC /* LaunchScreen.storyboard in Resources */,
+				A86A9E641F12F22500F29CDC /* Assets.xcassets in Resources */,
+				A86A9E621F12F22500F29CDC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A86A9E6B1F12F22500F29CDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A86A9E761F12F22500F29CDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A86A9E551F12F22500F29CDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A86A9E5F1F12F22500F29CDC /* ViewController.swift in Sources */,
+				A86A9E5D1F12F22500F29CDC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A86A9E691F12F22500F29CDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A86A9E721F12F22500F29CDC /* SpectralTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A86A9E741F12F22500F29CDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A86A9E7D1F12F22500F29CDC /* SpectralUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A86A9E6F1F12F22500F29CDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A86A9E581F12F22500F29CDC /* Spectral */;
+			targetProxy = A86A9E6E1F12F22500F29CDC /* PBXContainerItemProxy */;
+		};
+		A86A9E7A1F12F22500F29CDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A86A9E581F12F22500F29CDC /* Spectral */;
+			targetProxy = A86A9E791F12F22500F29CDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A86A9E601F12F22500F29CDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A86A9E611F12F22500F29CDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A86A9E651F12F22500F29CDC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A86A9E661F12F22500F29CDC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A86A9E7F1F12F22500F29CDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A86A9E801F12F22500F29CDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A86A9E821F12F22500F29CDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L93FLC77D4;
+				INFOPLIST_FILE = Spectral/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ForrestVanderBorgh.Spectral;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A86A9E831F12F22500F29CDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L93FLC77D4;
+				INFOPLIST_FILE = Spectral/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ForrestVanderBorgh.Spectral;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A86A9E851F12F22500F29CDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = L93FLC77D4;
+				INFOPLIST_FILE = SpectralTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ForrestVanderBorgh.SpectralTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spectral.app/Spectral";
+			};
+			name = Debug;
+		};
+		A86A9E861F12F22500F29CDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = L93FLC77D4;
+				INFOPLIST_FILE = SpectralTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ForrestVanderBorgh.SpectralTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spectral.app/Spectral";
+			};
+			name = Release;
+		};
+		A86A9E881F12F22500F29CDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = L93FLC77D4;
+				INFOPLIST_FILE = SpectralUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ForrestVanderBorgh.SpectralUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Spectral;
+			};
+			name = Debug;
+		};
+		A86A9E891F12F22500F29CDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = L93FLC77D4;
+				INFOPLIST_FILE = SpectralUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ForrestVanderBorgh.SpectralUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Spectral;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A86A9E541F12F22500F29CDC /* Build configuration list for PBXProject "Spectral" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A86A9E7F1F12F22500F29CDC /* Debug */,
+				A86A9E801F12F22500F29CDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A86A9E811F12F22500F29CDC /* Build configuration list for PBXNativeTarget "Spectral" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A86A9E821F12F22500F29CDC /* Debug */,
+				A86A9E831F12F22500F29CDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A86A9E841F12F22500F29CDC /* Build configuration list for PBXNativeTarget "SpectralTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A86A9E851F12F22500F29CDC /* Debug */,
+				A86A9E861F12F22500F29CDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A86A9E871F12F22500F29CDC /* Build configuration list for PBXNativeTarget "SpectralUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A86A9E881F12F22500F29CDC /* Debug */,
+				A86A9E891F12F22500F29CDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A86A9E511F12F22500F29CDC /* Project object */;
+}
