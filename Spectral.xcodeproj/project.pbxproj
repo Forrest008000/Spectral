@@ -14,6 +14,8 @@
 		A86A9E671F12F22500F29CDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A86A9E651F12F22500F29CDC /* LaunchScreen.storyboard */; };
 		A86A9E721F12F22500F29CDC /* SpectralTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86A9E711F12F22500F29CDC /* SpectralTests.swift */; };
 		A86A9E7D1F12F22500F29CDC /* SpectralUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86A9E7C1F12F22500F29CDC /* SpectralUITests.swift */; };
+		A86A9E8D1F12F5EC00F29CDC /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86A9E8C1F12F5EC00F29CDC /* Enemy.swift */; };
+		A86A9E8F1F12F7FF00F29CDC /* Bullet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86A9E8E1F12F7FF00F29CDC /* Bullet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		A86A9E781F12F22500F29CDC /* SpectralUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpectralUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A86A9E7C1F12F22500F29CDC /* SpectralUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpectralUITests.swift; sourceTree = "<group>"; };
 		A86A9E7E1F12F22500F29CDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A86A9E8C1F12F5EC00F29CDC /* Enemy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		A86A9E8E1F12F7FF00F29CDC /* Bullet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bullet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				A86A9E631F12F22500F29CDC /* Assets.xcassets */,
 				A86A9E651F12F22500F29CDC /* LaunchScreen.storyboard */,
 				A86A9E681F12F22500F29CDC /* Info.plist */,
+				A86A9E8C1F12F5EC00F29CDC /* Enemy.swift */,
+				A86A9E8E1F12F7FF00F29CDC /* Bullet.swift */,
 			);
 			path = Spectral;
 			sourceTree = "<group>";
@@ -258,6 +264,8 @@
 			files = (
 				A86A9E5F1F12F22500F29CDC /* ViewController.swift in Sources */,
 				A86A9E5D1F12F22500F29CDC /* AppDelegate.swift in Sources */,
+				A86A9E8D1F12F5EC00F29CDC /* Enemy.swift in Sources */,
+				A86A9E8F1F12F7FF00F29CDC /* Bullet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
